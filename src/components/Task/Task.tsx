@@ -10,7 +10,7 @@ const Task: React.FC<Props> = ({task, onTaskDelete}) => {
     <>
     <div className="taskContainer">
       <h4>{task}</h4>
-    <button onClick={onTaskDelete}>Delete</button>
+    <button  className="deleteBtn" onClick={onTaskDelete}></button>
     </div>
     </>
   );

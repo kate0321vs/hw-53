@@ -4,8 +4,17 @@
   justify-content: space-between;
   border: 1px solid lightgray;
   margin: 20px 0;
-  padding: 5px 10px;
+  padding: 5px 20px;
   border-radius: 10px;
   color: #000;
   background-color: white;
+}
+
+.deleteBtn {
+  display: block;
+  border: none;
+  background: transparent url('/src/assets/icon-delete.png') no-repeat center;
+  background-size: 30px 30px;
+  width: 40px;
+  height: 40px;
 }
